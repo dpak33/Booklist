@@ -9,17 +9,21 @@ const BookList = () => {
 }
 
 const Book = () => {
-  return <article className="book">
-    <Image />
-    <Title />
-    <Author />
+  const title = 'Atlas: the story';
+  const author = "Lucinda Reilly";
+  return (
+    <article className="book">
+      <img src='./images/book1.jpg' />
+      <h2>{title}</h2>
+      <h4>{author}</h4>
+      <p>{2 - 1}</p>
+    </article>
+  );
+};
 
-  </article>
-}
 
-const Image = () => <img src="/images/book1.jpg" />
-const Title = () => <h2>Atlas</h2>
-const Author = () => <h2>Lucinda Riley</h2>
+
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
