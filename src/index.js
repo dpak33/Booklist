@@ -17,7 +17,7 @@ const Book = () => {
   </article>
 }
 
-const Image = () => <img src="https://images-eu.ssl-images-amazon.com/images/I/81iw2hmh35L._AC_UL900_SR900,600_.jpg" />
+const Image = () => <img src="/images/book1.jpg" />
 const Title = () => <h2>Atlas</h2>
 const Author = () => <h2>Lucinda Riley</h2>
 const root = ReactDOM.createRoot(document.getElementById('root'));
